@@ -5,6 +5,7 @@ This repo is a demo to retrieve topic notes (background knowledge) for AP calcul
 Fill your own OPENAI API KEY in streamlitDemo.py
 
 `pip install -q streamlit langchain llama_index openai qdrant_client lxml`
+
 `streamlit run streamlitDemo.py`
 
 # Additional Info
