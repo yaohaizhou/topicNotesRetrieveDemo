@@ -1,0 +1,56 @@
+﻿URL,Topic Notes,Summary
+https://www.studypug.com/ap-calculus-bc/squeeze-theorem,"How to Use Squeeze Theorem
+In mathematical terms, Squeeze Theorem is defined by the following:
+$g(x) \leq f(x) \leq h(x)$
+
+$lim_{n \to  A} \;g\left( x \right)=lim_{n \to  A} \;h\left( x \right)=L$
+
+Therefore: $lim_{n \to  A} \;f\left( x \right)=L$
+Basically, for a given inequality of three terms such as the one above – the limit of f(x) term is equal to the limit of g(x) and h(x) if those limits are equal to each other. Thereby, if we can evaluate the limit of both g(x) and h(x), and they equal each other, we can easily find the limit of f(x). Now, before we look at some concrete examples of how and when to do squeeze theorem, let's first review how to find and evaluate limits.",Squeeze Theorem
+https://www.studypug.com/ap-calculus-bc/slope-and-equation-of-tangent-line,"The derivative of a function is interpreted as the slope of the tangent line to the curve of the function at a certain given point. In this section, we will explore the meaning of a derivative of a function, as well as learning how to find the slope-point form of the equation of a tangent line, as well as normal lines, to a curve at multiple given points.• Point-Slope Form  of a line with slope m through a point (x1,y1): 
+
+$m=\frac{y-y_1}{x-x_1}$
+
+•	Tangent Line & Normal Line
+The normal line to a curve at a particular point is the line through that point and perpendicular to the tangent line.",Slope and equation of tangent line
+https://www.studypug.com/ap-calculus-bc/average-value-of-a-function,"The average value of a function is just the mean value theorem for integrals. In this lesson, we learn that we can find an area of a rectangle that is exactly the same as the area under the curve. Equating them together and algebraically manipulating the equation will give us the formula for the average value. We will be taking a look at some examples of using this formula, as well as using the formula to find the c value that is between a and b. The Mean Value Theorem for Integrals:
+If f is continuous on [a, b], then there exists a number c in [a, b] such that 
+
+$f(c) = f_{avc}= \frac{1}{b-a}\int_{a}^{b} f(x)dx$
+
+In other words.
+
+$\int_{a}^{b} f(x)dx=f(c)(b-a)$",Average value of a function
+https://www.studypug.com/ap-calculus-bc/arc-length-of-polar-curves,"In this lesson, we will learn how to find the arc length of polar curves with a given region. We will first examine the formula and see how the formula works graphically. Then we will apply the formula to some of the questions below. Make sure you know trigonometric identities very well, as you will often need to use substitution to make your integrals simpler to integrate. Let $r=f(\theta)$
+ be a polar curve and $\alpha \leq \theta \leq \beta$
+Then we use the following formula to calculate the arc length of the curve: 
+$L=\int_{\alpha}^{\beta}\sqrt{r^2+(\frac{dr}{d\theta})^2}d\theta$",Arc length of polar curves
+https://www.studypug.com/ap-calculus-bc/convergence-divergence-of-geometric-series,"In this section, we will take a look at the convergence and divergence of geometric series. We've learned about geometric sequences in high school, but in this lesson we will formally introduce it as a series and determine if the series is divergent or convergent. For the first few questions we will determine the convergence of the series, and then find the sum. For the last few questions, we will determine the divergence of the geometric series, and show that the sum of the series is infinity.Formulas for Geometric Series: 
+
+$\sum_{n=0}^{\infty}ar^n=\frac{a}{1-r}​$ if -1 < r < 1
+
+$\sum_{n=1}^{\infty}ar^{n-1}=\frac{a}{1-r}$ if -1 < r < 1
+
+ If -1 < r < 1, then the geometric series converges. Otherwise, the series diverges.",Convergence & divergence of geometric series
+https://www.studypug.com/ap-calculus-bc/comparison-limit-comparison-test,"You may notice that some series look very complicated, but it shares the same properties as another series that looks very simple and easy. In this case, we can use the comparison test or limit comparison test. We will look at what conditions must be met to use these tests, and then use the tests on some complicated looking series. Lastly, we will use both the comparison test and the limit comparison test on a series, and conclude that they give the same result.Note  *The Comparison test says the following:
+Let $\sum a_n$​ and $\sum b_n$​ be two series where $a_n\leq b_n$ for all n and $a_nb_n\geq0$. Then we say that
+
+1. If $\sum b_n$  is convergent, then $\sum a_n$ is also convergent
+
+2. If $\sum a_n$​ is divergent, then $\sum b_n$ is also divergent.
+
+The Limit Comparison Test says the following: 
+
+Let $\sum a_n$ and $\sum b_n$​ be two series where $a_n\geq 0$ and bnb_nbn​ > 0 for all nnn. Then we say that 
+
+$\lim_{n \to \infty }\frac{a_n}{b_n}=c$
+
+If  c  is a positive finite number, then either both series converge or diverge. ",Comparison & limit comparison test
+https://www.studypug.com/ap-calculus-bc/chain-rule,"Chain Rule appears everywhere in the world of differential calculus. Whenever we are finding the derivative of a function, be it a composite function or not, we are in fact using the Chain Rule. In this section, we will learn about the concept, the definition and the application of the Chain Rule, as well as a secret trick – ""The Bracket Technique"".Chain Rule
+
+if: $y = \;f\left( {\;\;\;\;\;\;\;} \right)$
+
+then: $\frac{{dy}}{{{d}x}} = f'\left( {\;\;\;\;\;\;\;} \right)\cdot\frac{{d}}{{{d}x}}\left( {\;\;\;\;\;\;\;\;} \right)$
+",Chain rule
+https://www.studypug.com/ap-calculus-bc/absolute-conditional-convergence,"In this section, we will learn about the concept of absolute and conditional convergence. We say a series is absolutely convergent if BOTH the series and absolute value of the series is convergent. If the series is convergent and the absolute value of the series is divergent, then we call that conditional convergence. First, we will be use these definitions and apply it to some of the series below. Lastly, we will look at a complicated series which requires us to convert it to a simpler form before showing if it's absolutely convergent, conditionally convergent, or divergent.Let $\sum a_n$​ be a convergent series. Then we say that $\sum a_n$​ is absolutely convergent if $\sum |a_n|$ is convergent. 
+If $\sum |a_n|$ is divergent, then we say that $\sum a_n$ is conditionally convergent.",Absolute & conditional convergence
